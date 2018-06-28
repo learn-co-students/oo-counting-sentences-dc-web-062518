@@ -19,6 +19,7 @@ class String
     backup = []
     self.split('.').each do |arr|
       arr.split('!').each do |arr2|
+        array << arr2.split('?')
         binding.pry
       #array << arr.split('!')
       #arr
